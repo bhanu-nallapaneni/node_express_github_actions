@@ -20,9 +20,9 @@ app.post('/profile', (req, res) => {
   res.json(req.body)
 })
 //http://localhost:3000/name
-app.post('/name', (req, res) => {
+app.get('/name', (req, res) => {
   console.log(req.body)
-  res.json(req.body)
+  res.send("<h1>C0872283 Nallapaneni Bhanu Prasad/h1>")
 })
 //http://localhost:3000/admin
 app.get('/admin', (req, res) => {
