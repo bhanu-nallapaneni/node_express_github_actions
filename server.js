@@ -19,7 +19,11 @@ app.post('/profile', (req, res) => {
   console.log(req.body)
   res.json(req.body)
 })
-
+//http://localhost:3000/name
+app.post('/name', (req, res) => {
+  console.log(req.body)
+  res.json(req.body)
+})
 //http://localhost:3000/admin
 app.get('/admin', (req, res) => {
   res.send('Admin Homepage')
