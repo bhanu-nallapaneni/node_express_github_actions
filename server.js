@@ -22,7 +22,7 @@ app.post('/profile', (req, res) => {
 //http://localhost:3000/name
 app.get('/name', (req, res) => {
   console.log(req.body)
-  res.send("<h1>C0872283 Nallapaneni Bhanu Prasad/h1>")
+  res.send("<h1>C0872283 Nallapaneni Bhanu Prasad</h1>")
 })
 //http://localhost:3000/admin
 app.get('/admin', (req, res) => {
